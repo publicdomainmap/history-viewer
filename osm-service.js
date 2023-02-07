@@ -1,5 +1,5 @@
 /** Base URL for accessing OSM API. */
-API_URL_BASE = 'https://api.openstreetmap.org/api/0.6/';
+API_URL_BASE = 'https://api.publicdomainmap.org/api/0.6/';
 
 DEFAULT_USER_IMAGE =
   'https://cdn.jsdelivr.net/gh/openstreetmap/iD@master/svg/iD-sprite/icons/icon-avatar.svg';
@@ -9,7 +9,7 @@ OsmService = function($http, $q, $rootScope) {
     oauth_consumer_key: 'XOoeKShN1NtkKvriuBMnNsPvmBGnWQOUnovgY9fM',
     oauth_secret: '5648E77IcaiGbyVShU9g7tHfLfEllJcpsz0xvJm4',
     land: 'land.html',
-    url: 'https://www.openstreetmap.org',
+    url: 'https://www.publicdomainmap.org',
   });
 
   this.ngHttp = $http;

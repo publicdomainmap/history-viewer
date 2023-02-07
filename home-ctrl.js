@@ -2,7 +2,7 @@
  * Controller for the home page.
  */
 HomeCtrl = function($rootScope, $location, $window, osmService) {
-  $rootScope.title = 'OSM history';
+  $rootScope.title = 'PDM history';
   this.wayId;
   this.nodeId;
   this.relationId;
@@ -40,9 +40,9 @@ HomeCtrl.prototype.randomize = function(type) {
   };
   // If all fails, fall back to one of these objects.
   var DEFAULT_ID = {
-    node: 1804402734,
-    way: 26129870,
-    relation: 2308603,
+    node: 1,
+    way: 1,
+    relation: 1,
   };
   var maybeShow = null;
   var receivedCount = 0;
